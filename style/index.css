@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #ffc234;
+  }
+
+
+section{
+    /* background-image: linear-gradient(to right, #0e1521, black); */
+    /* background-color: black; */
+    background-color: rgb(12,12,12);
+    height: 120vh;
+}
+
+nav{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    overflow-x: hidden;
+    transition: all 0.1s ease-in;
+}
+
+nav.sticky{
+    background: black;
+    z-index: 3;
+}
+
+nav h1{
+    /* border: 2px solid red; */
+    position: absolute;
+    letter-spacing: 4px;
+    left: 7rem;
+}
+
+
+nav h1 a{
+    color: white;
+    text-decoration: none;   
+}
+
+nav h1 a:hover{
+    color: #ffc234;
+}
+
+.lio-color{
+    color: #ffc234;
+}
+
+.lio-color:hover{
+    color: white;
+}
+
+/* nav.sticky .lio-color{
+    color: black;
+
+} */
+
+nav ul{
+    /* border: 2px solid red; */
+    /* width: 10px; */
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    list-style: none;
+    position: absolute;
+    right: 15rem;
+    font-weight: bold;
+    position: fixed;
+}
+
+nav ul li{
+    margin: 0rem 1rem;
+    /* border: 2px solid red; */
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 8px 1rem;
+    /* border: 2px solid red; */
+    /* border-radius: 1rem; */
+    color: white;
+}
+
+.hover:hover{
+    border-bottom:2px solid #ffc234;
+    color: #ffc234;
+}
+
+#home{
+    color: #ffc234;
+}
+
+main{
+    /* margin-top: 1rem; */
+    display: flex;
+    /* border: 2px solid red; */
+    width: 98vw;
+    height: 89vh;
+}
+
+.Writing-Section{
+    /* border: 2px solid red; */
+    /* width: 0vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-container{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 18rem;
+}
+
+.Writing-Section h2{
+    /* border: 2px solid red; */
+    height: 7vh;
+    width: 26vw;
+    /* padding: 0rem 0rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Writing-Section p{
+    font-weight: bold;
+    /* border: 2px solid red; */
+    width: 20vw;
+    margin: 1rem 8rem;
+    color: white;
+}
+
+.Writing-Section button{
+    /* border: 2px solid red; */
+    background-color: #ffc234;
+    padding: 8px 0px;
+    width: 10vw;
+    margin: 0rem 8rem;
+    border-radius: 15px;
+    border: none;
+}
+
+.Writing-Section button:hover{
+    background: none;
+    border: 2px solid #ffc234;
+}
+
+.Writing-Section button a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 2rem;
+}
+
+.Writing-Section button a:hover{
+    color: white;
+}
+
+.Writing-Section span{
+    font-family: 'Pacifico', cursive;
+    padding: 0px 0px 0px 5px;
+    color: #ffc234;
+    /* border: 2px solid red; */
+}
+
+.image-section{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 6rem;
+    right: 14rem;
+    /* position: absolute;
+    right: 15rem; */
+}
+
+.image-section img{
+    /* border: 2px solid red; */
+    height: 37rem;
+    /* box-shadow: 5px 10px #ffc234; */
+}
+
+.blank-space{
+    height: 0vh;
+}
+
+.about-section{
+    /* border: 2px solid red; */
+    height: 92vh;
+    background: rgb(12,12,12);
+    /* border: 2px solid red; */
+}
+
+.about-section svg{
+    position: absolute;
+    top: 164%;
+}
+
+.about-me{
+    /* border: 2px solid red; */
+    width: 50vw;
+    height: 65vh;
+    margin: 0rem 0rem 0rem 2rem;
+}
+
+.about-me h2{
+    /* border: 2px solid red; */
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    margin: 0rem 19rem;
+    border-bottom: 2px solid #ffc234;
+}
+
+.about-me div{
+    /* border: 2px solid red; */
+    color: white;
+    width: 25rem;
+    text-align: justify;
+    margin: 3rem 12rem;
+}
+
+.services-section{
+    height: 92vh;
+    color: white;
+}
+
+.portfolio-section{
+    height: 92vh;
+    color: white;
+}
+
+.footer-section{
+    height: 52vh;
+    color: white;
+    background: rgb(0,0,0);
+}
