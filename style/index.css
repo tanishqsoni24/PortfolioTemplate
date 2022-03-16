@@ -30,6 +30,8 @@ section{
     height: 120vh;
 }
 
+/* Navigation Bar */
+
 nav{
     /* border: 2px solid red; */
     width: 100%;
@@ -104,13 +106,38 @@ nav ul li a{
     color: white;
 }
 
+#about_id{
+    text-decoration: none;
+    padding: 8px 1rem;
+    /* border: 2px solid red; */
+    /* border-radius: 1rem; */
+    color: white;
+}
+
+#about_id.about-class{
+    color: #ffc234;
+    border: none;
+}
+
 .hover:hover{
     border-bottom:2px solid #ffc234;
     color: #ffc234;
 }
 
-#home{
+/* Home Section */
+
+.home{
     color: #ffc234;
+}
+
+.home.home-class{
+    color: white;
+}
+
+.home.home-class:hover{
+    color: white;
+    border-bottom:2px solid #ffc234;
+    /* color: #ffc234; */
 }
 
 main{
@@ -206,6 +233,8 @@ main{
     height: 0vh;
 }
 
+/* About Section  */
+
 .about-section{
     /* border: 2px solid red; */
     height: 92vh;
@@ -242,15 +271,36 @@ main{
     margin: 3rem 12rem;
 }
 
+/* Services Section  */
+
 .services-section{
     height: 92vh;
-    color: white;
 }
+
+.services-section svg{
+    position: relative;
+    top: -1%;
+}
+
+.services-section h2{
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    display: block;
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: xxx-large;
+    position: relative;
+    top: -19%;
+}
+
+/* Portfolio Section  */
 
 .portfolio-section{
     height: 92vh;
     color: white;
 }
+
+/* Footer Section  */
 
 .footer-section{
     height: 52vh;
